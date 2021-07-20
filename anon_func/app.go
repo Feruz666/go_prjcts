@@ -25,8 +25,8 @@ func fakeSensor() kelvin {
 // }
 
 func main() {
+	measureTemperature(3, fakeSensor)
 
-	
 
 
 	// sensor := fakeSensor
