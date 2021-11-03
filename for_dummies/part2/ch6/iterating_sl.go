@@ -10,7 +10,7 @@ func main() {
 	// }
 
 	// making copies
-	nums1 := [5]int{1, 2, 3, 4, 5}
+	nums1 := [...]int{1, 2, 3, 4, 5}
 	nums2 := nums1
 	fmt.Println(nums1)
 	fmt.Println(nums2)
